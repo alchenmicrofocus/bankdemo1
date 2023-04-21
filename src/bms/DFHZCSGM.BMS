@@ -1,0 +1,99 @@
+*********************************************************************** 00000100
+*                                                                     * 00000200
+*   Copyright (C) 1998-2008 Micro Focus. All Rights Reserved.         * 00000300
+*   This demonstration program is provided for use by users           * 00000400
+*   of Micro Focus products and may be used, modified and             * 00000500
+*   distributed as part of your application provided that             * 00000600
+*   you properly acknowledge the copyright of Micro Focus             * 00000700
+*   in this material.                                                 * 00000800
+*                                                                     * 00000900
+*********************************************************************** 00001000
+DFHZSGM DFHMSD BASE=MAPAREA,                                           -00001100
+               LANG=COBOL,                                             -00001200
+               MODE=INOUT,                                             -00001300
+               TIOAPFX=YES,                                            -00001400
+               TYPE=&&SYSPARM                                           00001500
+CSGMA   DFHMDI DSATTS=(COLOR,HILIGHT,PS,VALIDN),                       -00001600
+               MAPATTS=(COLOR,HILIGHT,PS,VALIDN),                      -00001700
+               SIZE=(24,80)                                             00001800
+TXT00   DFHMDF ATTRB=(ASKIP,NORM),                                     -00001900
+               COLOR=GREEN,                                            -00002000
+               LENGTH=45,                                              -00002100
+               POS=(1,1),                                              -00002200
+               INITIAL='This is the Micro Focus Studio EE CICS region'  00002300
+VAR01   DFHMDF ATTRB=(ASKIP,FSET,NORM),                                -00002400
+               COLOR=GREEN,                                            -00002500
+               LENGTH=20,                                              -00002600
+               POS=(1,47),                                             -00002700
+               INITIAL='SYSID HH:MM:SS'                                 00002800
+TXT01   DFHMDF ATTRB=(ASKIP,NORM),                                     -00002900
+               COLOR=GREEN,                                            -00003000
+               LENGTH=77,                                              -00003100
+               POS=(7,1),                                              -00003200
+               INITIAL='   **\      **\  *******\  *******\     ******\-00003300
+                  **\   ******\    ******\   '                          00003400
+TXT02   DFHMDF ATTRB=(ASKIP,NORM),                                     -00003500
+               COLOR=GREEN,                                            -00003600
+               LENGTH=79,                                              -00003700
+               POS=(8,1),                                              -00003800
+               INITIAL='   ***\    ***\  *******\  *******\    ********-00003900
+               \  **\  ********\  ********\    '                        00004000
+TXT03   DFHMDF ATTRB=(ASKIP,NORM),                                     -00004100
+               COLOR=GREEN,                                            -00004200
+               LENGTH=77,                                              -00004300
+               POS=(9,1),                                              -00004400
+               INITIAL='   ****\  ****\  ***\\\\\  **\\\\\\    **\\\\\\-00004500
+               \  **\  **\\\\\\\  **\\\\**\  '                          00004600
+TXT04   DFHMDF ATTRB=(ASKIP,NORM),                                     -00004700
+               COLOR=GREEN,                                            -00004800
+               LENGTH=77,                                              -00004900
+               POS=(10,1),                                             -00005000
+               INITIAL='   **\**\**\**\  ***\      **\         **\     -00005100
+                  **\  **\        **\    \\  '                          00005200
+TXT05   DFHMDF ATTRB=(ASKIP,NORM),                                     -00005300
+               COLOR=GREEN,                                            -00005400
+               LENGTH=78,                                              -00005500
+               POS=(11,1),                                             -00005600
+               INITIAL='   **\ ***\ **\  *****\    *****\      **\     -00005700
+                  **\  **\         *******\   '                         00005800
+TXT06   DFHMDF ATTRB=(ASKIP,NORM),                                     -00005900
+               COLOR=GREEN,                                            -00006000
+               LENGTH=77,                                              -00006100
+               POS=(12,1),                                             -00006200
+               INITIAL='   **\  *\  **\  *****\    *****\      **\     -00006300
+                  **\  **\         *******\  '                          00006400
+TXT07   DFHMDF ATTRB=(ASKIP,NORM),                                     -00006500
+               COLOR=GREEN,                                            -00006600
+               LENGTH=76,                                              -00006700
+               POS=(13,1),                                             -00006800
+               INITIAL='   **\      **\  ***\      **\         **\     -00006900
+                  **\  **\          \\\\**\ '                           00007000
+TXT08   DFHMDF ATTRB=(ASKIP,NORM),                                     -00007100
+               COLOR=GREEN,                                            -00007200
+               LENGTH=77,                                              -00007300
+               POS=(14,1),                                             -00007400
+               INITIAL='   **\      **\  ***\      **\         **\     -00007500
+                  **\  **\        **\   **\  '                          00007600
+TXT09   DFHMDF ATTRB=(ASKIP,NORM),                                     -00007700
+               COLOR=GREEN,                                            -00007800
+               LENGTH=77,                                              -00007900
+               POS=(15,1),                                             -00008000
+               INITIAL='   **\      **\  ***\      *******\    ********-00008100
+               \  **\  ********\  ********\  '                          00008200
+TXT10   DFHMDF ATTRB=(ASKIP,NORM),                                     -00008300
+               COLOR=GREEN,                                            -00008400
+               LENGTH=76,                                              -00008500
+               POS=(16,1),                                             -00008600
+               INITIAL='   **\      **\  ***\      *******\     ******\-00008700
+                  **\   ******\   ******\\  '                           00008800
+TXT11   DFHMDF ATTRB=(ASKIP,NORM),                                     -00008900
+               COLOR=GREEN,                                            -00009000
+               LENGTH=75,                                              -00009100
+               POS=(17,1),                                             -00009200
+               INITIAL='    \\       \\   \\\        \\\\\      \\\\\\ -00009300
+                 \\     \\\\\\    \\\\\\   '                            00009400
+        DFHMSD TYPE=FINAL                                               00009500
+*                                                                       00009600
+* $ Version 5.98b sequenced on Thursday 5 Feb 2009 at 11:00pm           00009700
+*                                                                       00009800
+        END                                                             00009900
