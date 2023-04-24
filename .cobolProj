@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cobolProject" name="bankdemo_vsam" uuid="d7cafdfd-b73e-4dee-89f9-29e24e2fc11a" version="5.0">
+   <settings xsi:type="projectSettingsContainer">
+      <copybook-paths xsi:type="copybookPathsSettings">
+         <path enabled="true" name="/bankdemo_vsam" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/branches" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/hooks" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/heads" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/remotes" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/remotes/origin" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects/info" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects/pack" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/heads" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/remotes" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/remotes/origin" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/tags" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/bms" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/cobol" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/copybook" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/jcl" type="mfpath"/>
+      </copybook-paths>
+      <build-precedence-paths xsi:type="buildPrecedenceSettings">
+         <path enabled="true" name="/bankdemo_vsam" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/branches" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/hooks" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/heads" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/remotes" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/remotes/origin" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects/info" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects/pack" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/heads" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/remotes" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/remotes/origin" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/tags" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/bms" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/cobol" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/copybook" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/jcl" type="mfpath"/>
+      </build-precedence-paths>
+      <configurations default="New Configuration" linkedWith="2017" xsi:type="buildConfigurationsContainer">
+         <configuration description="New Configuration" type="all_dll" xsi:type="cobolBuildConfiguration">
+            <targetdir name="bankdemo_vsam"/>
+            <application_configuration xsi:type="runtimeConfigurationSettings">
+               <cobol_switches xsi:type="projectCobolSwitches"/>
+               <rts_switches xsi:type="projectRtsSwitches">
+                  <rts_switch name="A" value="on" index="1"/>
+                  <rts_switch name="D" value="off" index="0"/>
+                  <rts_switch name="F" value="on" index="0"/>
+                  <rts_switch name="I" value="off" index="2"/>
+                  <rts_switch name="O" value="on" index="0"/>
+                  <rts_switch name="S" value="off" index="5"/>
+               </rts_switches>
+               <deployment>
+                  <tunable name="reuse_container" value="true" index="0"/>
+                  <tunable name="reuse_container_after_error" value="true" index="0"/>
+                  <tunable name="app_always_exits" value="true" index="0"/>
+                  <tunable name="output_filtering_enabled" value="true" index="0"/>
+               </deployment>
+               <envScriptParameters></envScriptParameters>
+               <envScriptPath></envScriptPath>
+               <inheritBuildEnv>false</inheritBuildEnv>
+               <tunables>
+                  <tunable name="screen_lines" value="25" index="0"/>
+                  <tunable name="screen_cols" value="80" index="0"/>
+                  <tunable name="default_cancel_mode" value="2" index="0"/>
+               </tunables>
+            </application_configuration>
+            <link_settings xsi:type="linkSettings">
+               <options>
+                  <option id="targetName" name="linkSettings" value="bankdemo_vsam"/>
+                  <option id="applicationType" name="linkSettings" value="console"/>
+                  <option id="outputDirectory" name="linkSettings" value="New Configuration.bin"/>
+                  <option id="type" name="linkSettings" value="all_dll"/>
+                  <option id="threadedRts" name="linkSettings" value="threadedRts"/>
+                  <option id="runtimeModel" name="linkSettings" value="shared"/>
+                  <option id="platform" name="linkSettings" value="Windows"/>
+                  <option id="bitism" name="linkSettings" value="32 bit"/>
+               </options>
+               <additional_files/>
+            </link_settings>
+            <deploy_settings xsi:type="deploySettings">
+               <options>
+                  <option id="deployFolder" name="deploySettings" value="deploy"/>
+                  <option id="cleanAllowed" name="deploySettings" value="cleanAllowed"/>
+                  <option id="deployFiles" name="deploySettings" value=""/>
+                  <option id="deployPatterns" name="deploySettings" value="New_Configuration.bin/*${exeext}"/>
+               </options>
+            </deploy_settings>
+         </configuration>
+      </configurations>
+      <ims_settings xsi:type="additionalImsSettings">
+         <generatedFileDir name=""/>
+         <imsDatabaseDir name=""/>
+      </ims_settings>
+      <imscopy-paths xsi:type="imsCopyPathsSettings">
+         <path enabled="true" name="/bankdemo_vsam" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/branches" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/hooks" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/heads" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/remotes" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/remotes/origin" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects/info" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects/pack" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/heads" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/remotes" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/remotes/origin" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/tags" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/bms" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/cobol" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/copybook" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/jcl" type="mfpath"/>
+      </imscopy-paths>
+      <jcl-include-paths xsi:type="jclIncludePathsSettings">
+         <path enabled="true" name="/bankdemo_vsam" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/branches" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/hooks" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/heads" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/remotes" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/remotes/origin" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects/info" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects/pack" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/heads" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/remotes" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/remotes/origin" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/tags" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/bms" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/cobol" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/copybook" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/jcl" type="mfpath"/>
+      </jcl-include-paths>
+      <asmmacro-paths xsi:type="assemblerMacroPathsSettings">
+         <path enabled="true" name="/bankdemo_vsam" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/branches" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/hooks" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/heads" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/remotes" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/logs/refs/remotes/origin" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects/info" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/objects/pack" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/heads" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/remotes" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/remotes/origin" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/.git/refs/tags" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/bms" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/cobol" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/copybook" type="mfpath"/>
+         <path enabled="true" name="/bankdemo_vsam/src/jcl" type="mfpath"/>
+      </asmmacro-paths>
+      <dependent-projects xsi:type="dependentProjectsSettings"/>
+      <asm_link_settings xsi:type="assemblerLinkSettings">
+         <options>
+            <option id="link_create_debug_info" name="mf370lnk" value="ANIM"/>
+            <option id="link_mark_reentrant" name="mf370lnk" value="RENT"/>
+            <option id="link_addressing_mode" name="mf370lnk" value="AMODE(31)"/>
+            <option id="link_residency_mode" name="mf370lnk" value="RMODE(31)"/>
+            <option id="link_generate_listing" name="mf370lnk" value="NOLIST"/>
+            <option id="link_mark_reusable" name="mf370lnk" value="REUS"/>
+            <option id="link_linker_output" name="mf370lnk" value="OMF(390)"/>
+            <option id="link_resolve_external" name="mf370lnk" value="CALL"/>
+         </options>
+      </asm_link_settings>
+   </settings>
+   <files xsi:type="projectFileStore">
+      <filetype type="macro" xsi:type="cobolFileContainer"/>
+      <filetype type="cobol" xsi:type="cobolFileContainer">
+         <file compile="true" path="src/cobol/BBANK10P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BBANK20P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BBANK30P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BBANK35P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BBANK40P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BBANK50P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BBANK60P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BBANK70P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BBANK80P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BBANK90P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BBANK99P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BBANKZZP.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BCASH00P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BCASH01P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BCASH02P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BCASH03P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BDEMO10P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/BDEMO99P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANK01P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANK02P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANK03P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANK04P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANK05P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANK06P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANK07P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANK08P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANK09P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANK11P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANK51P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANK52P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DBANKIOP.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DCASH01P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DCASH02P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DFDSTAFF.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/DHELP01P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANK00P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANK10P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANK20P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANK30P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANK35P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANK40P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANK50P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANK60P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANK70P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANK80P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANK90P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANK99P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBANKZZP.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SBNKPLT1.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SCUSTOMP.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SDEMO00P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SDEMO10P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SDEMO99P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SPSWD01P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SSECUREP.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SSTMT01P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/STRAC00P.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/SVERSONP.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/TESTSEC1.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/UBNKPLT1.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/UBNKPLT2.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/UDATECNV.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/UTWOSCMP.cbl" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/ZBANKULP.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/ZBNKDIAG.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/ZBNKE15.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/ZBNKE35.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/ZBNKEXT1.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/ZBNKPRT1.CBL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/cobol/ZBNKPRT2.CBL" xsi:type="cobolFile"/>
+      </filetype>
+      <filetype type="asm" xsi:type="cobolFileContainer"/>
+      <filetype type="psb" xsi:type="cobolFileContainer"/>
+      <filetype type="jcl" xsi:type="cobolFileContainer">
+         <file compile="true" path="src/jcl/ZBNKBAT1.JCL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/jcl/ZBNKEXT1.JCL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/jcl/ZBNKINT1.JCL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/jcl/ZBNKINT2.JCL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/jcl/ZBNKINTE.JCL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/jcl/ZBNKINTZ.JCL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/jcl/ZBNKPRT1.JCL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/jcl/ZBNKPRTB.JCL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/jcl/ZBNKSTMT.JCL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/jcl/ZCAT.JCL" xsi:type="cobolFile"/>
+         <file compile="true" path="src/jcl/ZDUMP.JCL" xsi:type="cobolFile"/>
+      </filetype>
+      <filetype type="rexx" xsi:type="cobolFileContainer"/>
+      <filetype type="bms" xsi:type="cobolFileContainer">
+         <file compile="true" path="src/bms/DFHZCSGM.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MBANK10.bms" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MBANK20.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MBANK30.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MBANK35.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MBANK40.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MBANK50.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MBANK60.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MBANK70.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MBANK80.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MBANK90.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MBANK99.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MBANKZZ.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MDEMO10.BMS" xsi:type="cobolFile"/>
+         <file compile="true" path="src/bms/MDEMO99.BMS" xsi:type="cobolFile"/>
+      </filetype>
+      <filetype type="mfs" xsi:type="cobolFileContainer"/>
+      <filetype type="clist" xsi:type="cobolFileContainer"/>
+      <filetype type="easytrieve" xsi:type="cobolFileContainer"/>
+      <filetype type="cobol.copybook" xsi:type="cobolFileContainer"/>
+      <filetype type="lin" xsi:type="cobolFileContainer"/>
+      <filetype type="dbd" xsi:type="cobolFileContainer"/>
+      <folders xsi:type="cobolFolderContainer">
+         <folder compile="true" path="src/cobol" xsi:type="cobolFolder"/>
+      </folders>
+   </files>
+</project>
